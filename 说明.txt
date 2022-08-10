@@ -29,3 +29,8 @@ glob模式进行文件和文件夹的匹配（简化的正则表达式）
 ？表示只匹配一个任意字符
 [0-9]表示俩范围内都可以匹配
 **表示匹配任意中间目录
+十一查看历史
+git log
+git log -2
+git log -2 --pretty=oneline
+git log -2 --pretty=format:"%h| %an|%ar| %s"
